@@ -3,12 +3,12 @@ $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "siriproxy-testplugin"
-  s.version     = "0.1.1b1" 
+  s.version     = "0.1.0b1" 
   s.authors     = ["Ponyboy47"]
   s.email       = [""]
   s.homepage    = ""
   s.summary     = %q{A Siri Proxy Plugin for testing experimental stuff}
-  s.description = %q{Currently working on opening apps}
+  s.description = %q{Currently working on contact searching}
 
   s.rubyforge_project = "siriproxy-testplugin"
 
@@ -20,8 +20,4 @@ Gem::Specification.new do |s|
   # specify any dependencies here; for example:
   # s.add_development_dependency "rspec"
   # s.add_runtime_dependency "rest-client"
-  s.add_runtime_dependency "CFPropertyList"
-  s.add_runtime_dependency "eventmachine"
-  s.add_runtime_dependency "uuidtools"
-  s.add_development_dependency "rake"
 end
